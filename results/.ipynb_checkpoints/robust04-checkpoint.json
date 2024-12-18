@@ -1,0 +1,58 @@
+[
+    {
+        "model_path": "/root/paddlejob/workspace/llm/rank_vicuna_7b_v1",
+        "datetime": "2024-10-08 23:07:05.513169",
+        "retrieval_num": 100,
+        "current_pass": 1,
+        "window_size": 20,
+        "step_size": 10,
+        "shuffle_candidates": false,
+        "time_cost": 655.9183256626129,
+        "notes": "",
+        "NDCG@1": "63.25",
+        "NDCG@5": "53.13",
+        "NDCG@10": "47.63"
+    },
+    {
+        "model_path": "/root/paddlejob/workspace/llm/rank_zephyr_7b_v1_full",
+        "datetime": "2024-10-09 00:11:17.842199",
+        "retrieval_num": 100,
+        "current_pass": 1,
+        "window_size": 20,
+        "step_size": 10,
+        "shuffle_candidates": false,
+        "time_cost": 465.24686217308044,
+        "notes": "",
+        "NDCG@1": "64.86",
+        "NDCG@5": "57.01",
+        "NDCG@10": "51.40"
+    },
+    {
+        "model_path": "/root/paddlejob/workspace/trained_models/mistral_100to100/checkpoint-312",
+        "datetime": "2024-10-09 01:04:48.231189",
+        "retrieval_num": 100,
+        "current_pass": 1,
+        "window_size": 100,
+        "step_size": 10,
+        "shuffle_candidates": false,
+        "time_cost": 430.6995282173157,
+        "notes": "",
+        "NDCG@1": "71.49",
+        "NDCG@5": "60.32",
+        "NDCG@10": "53.62"
+    },
+    {
+        "model_path": "/root/paddlejob/workspace/trained_models/mistral_20to20/checkpoint-312",
+        "datetime": "2024-10-09 01:59:31.106521",
+        "retrieval_num": 100,
+        "current_pass": 1,
+        "window_size": 20,
+        "step_size": 10,
+        "shuffle_candidates": false,
+        "time_cost": 463.30415964126587,
+        "notes": "",
+        "NDCG@1": "68.67",
+        "NDCG@5": "57.55",
+        "NDCG@10": "51.31"
+    }
+]

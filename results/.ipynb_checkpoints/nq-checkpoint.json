@@ -1,0 +1,16 @@
+[
+    {
+        "model_path": "/root/paddlejob/workspace/llm/rank_vicuna_7b_v1",
+        "datetime": "2024-10-13 21:14:09.816944",
+        "retrieval_num": 100,
+        "current_pass": 1,
+        "window_size": 20,
+        "step_size": 10,
+        "shuffle_candidates": false,
+        "time_cost": 6309.471281528473,
+        "notes": "truncate_by_words",
+        "NDCG@1": "38.38",
+        "NDCG@5": "49.86",
+        "NDCG@10": "51.73"
+    }
+]

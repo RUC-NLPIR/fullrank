@@ -1,0 +1,34 @@
+[
+    {
+        "model_path": "trained_models/RankMistral100",
+        "datetime": "2024-12-18 16:04:12.850546",
+        "retrieval_num": 100,
+        "current_pass": 1,
+        "window_size": 100,
+        "step_size": 10,
+        "shuffle_candidates": false,
+        "time_cost": 41.29074239730835,
+        "total_input_tokens": 429180,
+        "total_output_tokens": 21156,
+        "notes": "",
+        "NDCG@1": "72.87",
+        "NDCG@5": "74.19",
+        "NDCG@10": "72.55"
+    },
+    {
+        "model_path": "trained_models/RankMistral100",
+        "datetime": "2024-12-18 17:10:53.316776",
+        "retrieval_num": 100,
+        "current_pass": 1,
+        "window_size": 100,
+        "step_size": 10,
+        "shuffle_candidates": false,
+        "time_cost": 40.43274998664856,
+        "total_input_tokens": 429180,
+        "total_output_tokens": 21156,
+        "notes": "",
+        "NDCG@1": "72.87",
+        "NDCG@5": "74.19",
+        "NDCG@10": "72.55"
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "model_path": "/root/paddlejob/workspace/llm/Mistral-7B-Instruct-v0.3",
+        "datetime": "2024-11-08 22:26:02.380448",
+        "retrieval_num": 100,
+        "current_pass": 1,
+        "window_size": 20,
+        "step_size": 10,
+        "shuffle_candidates": false,
+        "time_cost": 2607.1827030181885,
+        "notes": "",
+        "NDCG@1": "56.11",
+        "NDCG@5": "72.27",
+        "NDCG@10": "74.09"
+    }
+]
