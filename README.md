@@ -14,18 +14,18 @@ Large Language Models (LLMs) have shown exciting performance in listwise passage
 
 ## 📦 Environment
 
-#### Step1: Create Conda Environment
+#### Step 1: Create Conda Environment
 
 ```
 conda create -n fullrank python=3.9
 conda activate fullrank
 ```
 
-#### Step2: Install jdk
+#### Step 2: Install jdk
 
 In our project, we utilize JDK version 11.0.8 (other versions may also be compatible).
 
-#### Step3: Install packages
+#### Step 3: Install packages
 
 ```shell
 bash env.sh
@@ -41,7 +41,7 @@ For the evaluation of effectiveness, please run the following script:
 bash run_rank_llm.sh
 ```
 
-The evaluation script use vllm for accelerating. Please place the open-source long-text LLM to be evaluated in `llm/`, and our $\text{RankMistral}_{100}$ in `trained_models/`.
+The evaluation script uses vllm for acceleration. Please place the open-source long-context LLM to be evaluated in `llm/`, and place our $\text{RankMistral}_{100}$ in `trained_models/`.
 
 ### 2. Efficiency
 
@@ -51,7 +51,7 @@ For the evaluation of efficiency, please run the following script:
 bash test_latency.sh
 ```
 
-Note that we choose not to use vllm technique for a fair comparison. Below shows the the latency across different LLMs:
+Note that we choose not to use vllm technique for a fair comparison. The following image shows the latency across different LLMs:
 
 <img src="https://8421bcd.oss-cn-beijing.aliyuncs.com/img/image-20241218232539325.png" alt="image-20241218232539325" style="zoom: 50%;" />
 
@@ -74,7 +74,7 @@ For training with standard language modeling loss, set the parameter `weighted_l
 
 ## 📞 Contact
 
-If you have any question or suggestion related to this project, feel free to open an issue or pull request. You also can email Wenhan Liu ([lwh@ruc.edu.cn](mailto:lwh@ruc.edu.cn)).
+If you have any questions or suggestions related to this project, feel free to open an issue or pull request. You also can email Wenhan Liu ([lwh@ruc.edu.cn](mailto:lwh@ruc.edu.cn)).
 
 ## ✨ Citation
 
