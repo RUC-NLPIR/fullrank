@@ -2,7 +2,7 @@
 
 ## 📢 Latest News
 
-- Dec, 2024: We have released the [dataset](https://huggingface.co/datasets/liuwenhan/msmarco_full_ranking_list), trained model [$\text{RankMistral}_{100}$](https://huggingface.co/liuwenhan/RankMistral100) and codes. 
+- Dec, 2024: We have released the [dataset](https://huggingface.co/datasets/liuwenhan/msmarco_full_ranking_list), trained model $\text{RankMistral}_{100}$ ([download](https://huggingface.co/liuwenhan/RankMistral100)) and codes. 
 
 ## 📋 Introduction
 
