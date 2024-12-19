@@ -43,6 +43,8 @@ bash run_rank_llm.sh
 
 The evaluation script uses vllm for acceleration. Please place the open-source long-context LLM to be evaluated in `llm/`, and place our $\text{RankMistral}_{100}$ in `trained_models/`.
 
+Note: If you want to call the OpenAI API, remember to create a file named `.env.local` in the root directory of the project and set a variable OPEN_AI_API_KEY={YOUR_KEY}.
+
 ### 2. Efficiency
 
 For the evaluation of efficiency, please run the following script:
