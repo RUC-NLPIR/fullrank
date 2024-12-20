@@ -14,7 +14,7 @@
 
 ## 📋 Introduction
 
-This repository contains the code for our paper [Sliding Windows Are Not the End: Exploring Full Ranking with Long-Context Large Language Models](). 
+This repository contains the code for our paper [Sliding Windows Are Not the End: Exploring Full Ranking with Long-Context Large Language Models](https://arxiv.org/abs/2412.14574). 
 
 <img src="https://8421bcd.oss-cn-beijing.aliyuncs.com/img/image-20241218172223836.png" alt="image-20241218172223836" style="zoom: 33%;" />
 
