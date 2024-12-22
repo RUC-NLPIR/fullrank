@@ -105,7 +105,12 @@ If you have any questions or suggestions related to this project, feel free to o
 If you find this repository useful, please consider giving a star ⭐ and citation
 
 ```
-
+@article{liu2024sliding,
+  title={Sliding Windows Are Not the End: Exploring Full Ranking with Long-Context Large Language Models},
+  author={Liu, Wenhan and Ma, Xinyu and Zhu, Yutao and Zhao, Ziliang and Wang, Shuaiqiang and Yin, Dawei and Dou, Zhicheng},
+  journal={arXiv preprint arXiv:2412.14574},
+  year={2024}
+}
 ```
 
 We also acknowledge the opens-source repo [RankLLM](https://github.com/castorini/rank_llm/), which is instrumental for this work.
