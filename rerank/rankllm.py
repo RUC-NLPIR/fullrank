@@ -255,8 +255,8 @@ class RankLLM(ABC):
                 len(rerank_result.candidates[rank_start:rank_end]),
             )
             # Rescore all candidates with 1/rank
-            # for i, cand in enumerate(rerank_result.candidates):
-            #     cand["score"] = 1.0 / (i + 1)
+            for i, candidate in enumerate(rerank_result.candidates):
+                candidate.score = 1.0 / (i + 1)
             #     cand["rank"] = i + 1
 
     def sliding_windows_batched(
