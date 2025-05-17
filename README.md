@@ -9,7 +9,7 @@
 
 
 ## 📢 Latest News
-
+- May, 2025: Our paper has been accepted to the main conference of ACL 2025!
 - Dec, 2024: We have released the [dataset](https://huggingface.co/datasets/liuwenhan/msmarco_full_ranking_list), trained model $\text{RankMistral}_{100}$ ([download](https://huggingface.co/liuwenhan/RankMistral100)) and codes. 
 
 ## 📋 Introduction
