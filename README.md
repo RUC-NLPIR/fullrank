@@ -9,7 +9,7 @@
 
 
 ## 📢 Latest News
-- May, 2025: Our paper has been accepted to the main conference of ACL 2025 (Oral)!
+- May, 2025: Our paper has been accepted to the main conference of ACL 2025 Main Conference (Oral)!
 - Dec, 2024: We have released the [dataset](https://huggingface.co/datasets/liuwenhan/msmarco_full_ranking_list), trained model $\text{RankMistral}_{100}$ ([download](https://huggingface.co/liuwenhan/RankMistral100)) and codes. 
 
 ## 📋 Introduction
@@ -116,3 +116,4 @@ If you find this repository useful, please consider giving a star ⭐ and citati
 We also acknowledge the opens-source repo [RankLLM](https://github.com/castorini/rank_llm/), which is instrumental for this work.
 
  
+
