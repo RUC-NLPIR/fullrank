@@ -93,7 +93,7 @@ Run the following code to fine-tune a full ranking model:
 cd training
 bash run_train.sh
 ```
-
+Remember to change the `deepspeed_config_file` in `training/train_configs/accel_config_deepspeed.yaml` to your own absolute path: `{PROJECT_DIR}/training/train_configs/zero3_bf16.json`. 
 For training with standard language modeling loss, set the parameter `weighted_loss=False`.
 
 ## 📞 Contact
@@ -116,4 +116,5 @@ If you find this repository useful, please consider giving a star ⭐ and citati
 We also acknowledge the opens-source repo [RankLLM](https://github.com/castorini/rank_llm/), which is instrumental for this work.
 
  
+
 
